@@ -1,0 +1,24 @@
+{
+  "name": "nodeheroku",
+  "version": "1.0.0",
+  "description": "testing nodejs and heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeworld1995/firstNodeJsDemo.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "restful"
+  ],
+  "author": "jimmy hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeworld1995/firstNodeJsDemo/issues"
+  },
+  "homepage": "https://github.com/freeworld1995/firstNodeJsDemo#readme"
+}
