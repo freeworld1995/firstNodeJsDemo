@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var userController = require('./controllers/userController');
 
 var app = express();
-
+var port = process.env.PORT || 5000
 // setup template engine
 app.set('view engine', 'ejs');
 
@@ -15,6 +15,6 @@ app.use(express.static('./public'));
 userController(app);
 
 // listen to port
-app.listen(5000);
-
-console.log('listening to port 3000...');
+app.listen(port, function() {
+  console.log('listening to port...');
+});
