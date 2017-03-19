@@ -1,8 +1,14 @@
 {
-  "name": "nodeheroku",
+  "name": "demoherokunode",
   "version": "1.0.0",
-  "description": "testing nodejs and heroku",
+  "description": "test heroku node",
   "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,9 +19,9 @@
   "keywords": [
     "node",
     "heroku",
-    "restful"
+    "rest"
   ],
-  "author": "jimmy hoang",
+  "author": "jimmy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/freeworld1995/firstNodeJsDemo/issues"
