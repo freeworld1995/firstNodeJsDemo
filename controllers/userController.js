@@ -1,9 +1,9 @@
 module.exports = function(app) {
-  app.get('/home', function(req, res){
+  app.get('/', function(req, res){
     app.render('home');
   });
 
-  app.post('/home', function(req, res){
+  app.post('/', function(req, res){
 
   });
 };

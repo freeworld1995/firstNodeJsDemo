@@ -15,6 +15,6 @@ app.use(express.static('./public'));
 userController(app);
 
 // listen to port
-app.listen(3000);
+app.listen(5000);
 
 console.log('listening to port 3000...');
